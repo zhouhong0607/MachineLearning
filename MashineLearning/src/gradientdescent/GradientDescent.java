@@ -29,6 +29,18 @@ public class GradientDescent
 		training();
 		scanner.close();
 	}
+	
+	public GradientDescent(double[][] x1,double[][] y1,double[][] para1)throws Exception
+	{
+		// TODO Auto-generated constructor stub
+		
+		this.x=x1;
+		this.y=y1;
+		this.para=para1;
+		
+		training();
+	}
+	
 	private void training() throws Exception
 	{
 		
